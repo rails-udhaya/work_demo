@@ -59,7 +59,8 @@ EG: http://www.linkedin.com/pub/shane-rasnak/13/4a4/53</br>
 <script>
 
 $('#main_button').click(function () {
- 
+ $("#user_contents").html("")
+$("#user_contents").html('<div style="text-align:center"><img src="/assets/loading.gif"></div>')
 										$.ajax({
 														type: "POST",
 														url: "<%=fetch_linked_in_details_home_index_path%>",
