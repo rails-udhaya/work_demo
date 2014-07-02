@@ -49,6 +49,7 @@ ReworkDemo::Application.routes.draw do
        collection do
         get 'linkedin_demo_for_eesamohammed'
         post 'fetch_linked_in_details'
+        
         post 'fetch_linked_in_details_for_eesa'
       end
   end
