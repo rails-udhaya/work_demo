@@ -47,6 +47,7 @@ ReworkDemo::Application.routes.draw do
   #   end
   resources :home do
        collection do
+        get 'linkedin_demo_for_eesamohammed'
         post 'fetch_linked_in_details'
       end
   end
